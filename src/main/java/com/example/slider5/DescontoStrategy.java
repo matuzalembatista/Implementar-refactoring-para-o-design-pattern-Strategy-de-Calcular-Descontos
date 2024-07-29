@@ -1,6 +1,6 @@
 package com.example.slider5;
 
-public interface DescontoStragegy {
+public interface DescontoStrategy {
 
     public Double calcularDesconto(double consumo);
     

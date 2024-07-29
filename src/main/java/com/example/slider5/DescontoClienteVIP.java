@@ -1,6 +1,6 @@
 package com.example.slider5;
 
-public class DescontoClienteVIP implements DescontoStragegy {
+public class DescontoClienteVIP implements DescontoStrategy {
     @Override
     public double calcularDesconto(double consumo) {
 
