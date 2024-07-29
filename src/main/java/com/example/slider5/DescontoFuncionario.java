@@ -1,5 +1,10 @@
 package com.example.slider5;
 
-public class DescontoFuncionario {
-    
+public class DescontoFuncionario implements DescontoStragegy {
+    @Override
+    public double calcularDesconto(double consumo) {
+
+        return consumo * 0.30;
+
+    }
 }
